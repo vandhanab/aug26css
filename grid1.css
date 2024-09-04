@@ -1,0 +1,46 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(6, 100px); 
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.child {
+    background-color: #a6ce39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border: 2px solid white;
+}
+.child1 {grid-column: 1 /span 12; grid-row: 1 / span 1; }
+.child2 { grid-column: 1 /span 6;  grid-row: 2 / span 1; }
+.child3 { grid-column: 7 /span 6;  grid-row: 2 / span 1; }
+.child4 { grid-column: 1 /span 4;  grid-row: 3 / span 1; }
+.child5 { grid-column: 5 /span 4;  grid-row: 3 / span 1; }
+.child6 { grid-column: 9 /span 4; grid-row: 3 / span 1; }
+.child7 { grid-column: 1 /span 3;  grid-row: 4 / span 1; }
+.child8 { grid-column: 4 /span 3;  grid-row: 4 / span 1; }
+.child9 { grid-column: 7 /span 3;  grid-row: 4 / span 1; }
+.child10 { grid-column: 10 /span 3; grid-row: 4 / span 1; }
+.child11 { grid-column: 1 /span 2;  grid-row: 5 / span 1; }
+.child12 { grid-column: 3 /span 2;  grid-row: 5 / span 1; }
+.child13 { grid-column: 5 /span 2;  grid-row: 5 / span 1; }
+.child14 { grid-column: 7 /span 2;  grid-row: 5 / span 1; }
+.child15 { grid-column: 9 /span 2;  grid-row: 5 / span 1; }
+.child16 { grid-column: 11 /span 2; grid-row: 5 / span 1; }
+.child17 { grid-column: 1 /span 1;  grid-row: 6 / span 1; }
+.child18 { grid-column: 2 /span 1;  grid-row: 6 / span 1; }
+.child19 { grid-column: 3 /span 1;  grid-row: 6 / span 1; }
+.child20 { grid-column: 4 /span 1;  grid-row: 6 / span 1; }
+.child21 { grid-column: 5 /span 1;  grid-row: 6 / span 1; }
+.child22 { grid-column: 6 /span 1;  grid-row: 6 / span 1; }
+.child23 { grid-column: 7 /span 1;  grid-row: 6 / span 1; }
+.child24 { grid-column: 8 /span 1;  grid-row: 6 / span 1; }
+.child25 { grid-column: 9 /span 1;  grid-row: 6 / span 1; }
+.child26 { grid-column: 10 /span 1; grid-row: 6 / span 1; }
+.child27 { grid-column: 11 /span 1; grid-row: 6 / span 1; }
+.child28 { grid-column: 12 /span 1; grid-row: 6 / span 1; }
